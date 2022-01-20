@@ -1,0 +1,399 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L fab:ATSAMD11C14A-SS U1
+U 1 1 61E8D874
+P 4200 3900
+F 0 "U1" H 3700 4700 50  0000 C CNN
+F 1 "ATSAMD11C14A-SS" H 3700 4600 50  0000 C CNN
+F 2 "fab:SOIC-14_3.9x8.7mm_P1.27mm" H 4200 2850 50  0001 C CNN
+F 3 "" H 4200 3200 50  0001 C CNN
+	1    4200 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L fab:Conn_PinHeader_FTDI_1x06_P2.54mm_Horizontal_SMD J3
+U 1 1 61E92D70
+P 6200 3900
+F 0 "J3" H 6031 3819 50  0000 R CNN
+F 1 "FTDI Out" H 6031 3910 50  0000 R CNN
+F 2 "fab:PinHeader_FTDI_01x06_P2.54mm_Horizontal_SMD" H 6200 3900 50  0001 C CNN
+F 3 "~" H 6200 3900 50  0001 C CNN
+	1    6200 3900
+	-1   0    0    1   
+$EndComp
+$Comp
+L fab:Conn_PinHeader_FTDI_1x06_P2.54mm_Horizontal_SMD J4
+U 1 1 61E93CBB
+P 7200 3900
+F 0 "J4" H 7031 3819 50  0000 R CNN
+F 1 "FTDI In" H 7031 3910 50  0000 R CNN
+F 2 "fab:PinHeader_FTDI_01x06_P2.54mm_Horizontal_SMD" H 7200 3900 50  0001 C CNN
+F 3 "~" H 7200 3900 50  0001 C CNN
+	1    7200 3900
+	1    0    0    1   
+$EndComp
+$Comp
+L fab:Conn_PinHeader_2x02_P2.54mm_Vertical_SMD J1
+U 1 1 61E95181
+P 3050 3800
+F 0 "J1" H 3100 4017 50  0000 C CNN
+F 1 "JTAG" H 3100 3926 50  0000 C CNN
+F 2 "fab:PinHeader_2x02_P2.54mm_Vertical_SMD" H 3050 3800 50  0001 C CNN
+F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/95278.pdf" H 3050 3800 50  0001 C CNN
+	1    3050 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L fab:R R1
+U 1 1 61E961AA
+P 5750 3700
+F 0 "R1" V 5543 3700 50  0000 C CNN
+F 1 "1.2K" V 5634 3700 50  0000 C CNN
+F 2 "fab:R_1206" V 5680 3700 50  0001 C CNN
+F 3 "~" H 5750 3700 50  0001 C CNN
+	1    5750 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L fab:Regulator_Linear_LM3480-3.3V-100mA U2
+U 1 1 61E9C635
+P 6550 2550
+F 0 "U2" H 6550 2792 50  0000 C CNN
+F 1 "3.3V Reg" H 6550 2701 50  0000 C CNN
+F 2 "fab:SOT-23" H 6550 2775 50  0001 C CIN
+F 3 "https://www.ti.com/lit/ds/symlink/lm3480.pdf" H 6550 2550 50  0001 C CNN
+	1    6550 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L fab:R R2
+U 1 1 61E9DEDF
+P 8000 3500
+F 0 "R2" V 8207 3500 50  0000 C CNN
+F 1 "4.7K" V 8116 3500 50  0000 C CNN
+F 2 "fab:R_1206" V 7930 3500 50  0001 C CNN
+F 3 "~" H 8000 3500 50  0001 C CNN
+	1    8000 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L fab:C C1
+U 1 1 61E9ECC0
+P 6150 2900
+F 0 "C1" V 5898 2900 50  0000 C CNN
+F 1 "1 uF" V 5989 2900 50  0000 C CNN
+F 2 "fab:C_1206" H 6188 2750 50  0001 C CNN
+F 3 "" H 6150 2900 50  0001 C CNN
+	1    6150 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L fab:C C2
+U 1 1 61EA0807
+P 6950 2900
+F 0 "C2" V 6698 2900 50  0000 C CNN
+F 1 "1 uF" V 6789 2900 50  0000 C CNN
+F 2 "fab:C_1206" H 6988 2750 50  0001 C CNN
+F 3 "" H 6950 2900 50  0001 C CNN
+	1    6950 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L fab:Conn_PinHeader_1x03_P2.54mm_Horizontal_SMD J5
+U 1 1 61EA1A55
+P 8950 3800
+F 0 "J5" H 8922 3732 50  0000 R CNN
+F 1 "UPDI Out" H 8922 3823 50  0000 R CNN
+F 2 "fab:PinHeader_1x03_P2.54mm_Horizontal_SMD" H 8950 3800 50  0001 C CNN
+F 3 "~" H 8950 3800 50  0001 C CNN
+	1    8950 3800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5300 3700 5400 3800
+Wire Wire Line
+	5300 3800 5400 3700
+Wire Wire Line
+	5400 3700 5600 3700
+Wire Wire Line
+	5900 3700 6000 3700
+Wire Wire Line
+	5400 3800 6000 3800
+Wire Wire Line
+	6000 3700 7400 3700
+Connection ~ 6000 3700
+Wire Wire Line
+	7400 3800 6000 3800
+Connection ~ 6000 3800
+Wire Wire Line
+	6300 2900 6550 2900
+Wire Wire Line
+	6550 2900 6550 2850
+Connection ~ 6550 2900
+Wire Wire Line
+	6550 2900 6800 2900
+Wire Wire Line
+	6250 2550 6000 2550
+Wire Wire Line
+	6000 2550 6000 2900
+Wire Wire Line
+	6850 2550 7100 2550
+Wire Wire Line
+	7100 2550 7100 2900
+Wire Wire Line
+	6550 2900 6550 3000
+$Comp
+L power:GND #PWR0101
+U 1 1 61EABCB6
+P 6550 3000
+F 0 "#PWR0101" H 6550 2750 50  0001 C CNN
+F 1 "GND" H 6555 2827 50  0000 C CNN
+F 2 "" H 6550 3000 50  0001 C CNN
+F 3 "" H 6550 3000 50  0001 C CNN
+	1    6550 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 61EAD2B0
+P 4200 4900
+F 0 "#PWR0102" H 4200 4650 50  0001 C CNN
+F 1 "GND" H 4205 4727 50  0000 C CNN
+F 2 "" H 4200 4900 50  0001 C CNN
+F 3 "" H 4200 4900 50  0001 C CNN
+	1    4200 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7400 4100 8500 4100
+Wire Wire Line
+	8500 4100 8500 3800
+Wire Wire Line
+	8500 3800 8750 3800
+Wire Wire Line
+	8750 3900 7400 3900
+Wire Wire Line
+	7400 3700 8150 3700
+Connection ~ 7400 3700
+Wire Wire Line
+	7850 3500 7850 3800
+Wire Wire Line
+	7850 3800 7400 3800
+Connection ~ 7400 3800
+Wire Wire Line
+	8150 3500 8150 3700
+Wire Wire Line
+	7400 4100 6700 4100
+Connection ~ 7400 4100
+Wire Wire Line
+	7400 3900 6700 3900
+Connection ~ 7400 3900
+$Comp
+L power:+5V #PWR0103
+U 1 1 61EB4DBB
+P 6700 3500
+F 0 "#PWR0103" H 6700 3350 50  0001 C CNN
+F 1 "+5V" H 6715 3673 50  0000 C CNN
+F 2 "" H 6700 3500 50  0001 C CNN
+F 3 "" H 6700 3500 50  0001 C CNN
+	1    6700 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 61EB7041
+P 6700 4300
+F 0 "#PWR0104" H 6700 4050 50  0001 C CNN
+F 1 "GND" H 6705 4127 50  0000 C CNN
+F 2 "" H 6700 4300 50  0001 C CNN
+F 3 "" H 6700 4300 50  0001 C CNN
+	1    6700 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6700 4300 6700 4100
+Connection ~ 6700 4100
+Wire Wire Line
+	6700 4100 6000 4100
+Wire Wire Line
+	6700 3500 6700 3900
+Connection ~ 6700 3900
+Wire Wire Line
+	6700 3900 6000 3900
+$Comp
+L power:+5V #PWR0105
+U 1 1 61EB91E0
+P 6000 2400
+F 0 "#PWR0105" H 6000 2250 50  0001 C CNN
+F 1 "+5V" H 6015 2573 50  0000 C CNN
+F 2 "" H 6000 2400 50  0001 C CNN
+F 3 "" H 6000 2400 50  0001 C CNN
+	1    6000 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0106
+U 1 1 61EBA3C4
+P 7100 2400
+F 0 "#PWR0106" H 7100 2250 50  0001 C CNN
+F 1 "+3.3V" H 7115 2573 50  0000 C CNN
+F 2 "" H 7100 2400 50  0001 C CNN
+F 3 "" H 7100 2400 50  0001 C CNN
+	1    7100 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 2550 7100 2400
+Connection ~ 7100 2550
+Wire Wire Line
+	6000 2550 6000 2400
+Connection ~ 6000 2550
+Text Label 5800 3800 0    50   ~ 0
+TX
+Wire Wire Line
+	8750 3700 8150 3700
+Connection ~ 8150 3700
+$Comp
+L power:+3.3V #PWR0107
+U 1 1 61E8FC3E
+P 4200 3200
+F 0 "#PWR0107" H 4200 3050 50  0001 C CNN
+F 1 "+3.3V" H 4215 3373 50  0000 C CNN
+F 2 "" H 4200 3200 50  0001 C CNN
+F 3 "" H 4200 3200 50  0001 C CNN
+	1    4200 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 3700 5300 3700
+Wire Wire Line
+	4700 3800 5300 3800
+$Comp
+L power:+5V #PWR0108
+U 1 1 61EA2EA3
+P 5200 4100
+F 0 "#PWR0108" H 5200 3950 50  0001 C CNN
+F 1 "+5V" H 5215 4273 50  0000 C CNN
+F 2 "" H 5200 4100 50  0001 C CNN
+F 3 "" H 5200 4100 50  0001 C CNN
+	1    5200 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0109
+U 1 1 61EA39A6
+P 5200 4850
+F 0 "#PWR0109" H 5200 4600 50  0001 C CNN
+F 1 "GND" H 5205 4677 50  0000 C CNN
+F 2 "" H 5200 4850 50  0001 C CNN
+F 3 "" H 5200 4850 50  0001 C CNN
+	1    5200 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 4750 5200 4850
+Wire Wire Line
+	5200 4450 5200 4400
+Wire Wire Line
+	5100 4550 5100 4100
+Wire Wire Line
+	5000 4650 5000 4200
+Wire Wire Line
+	5000 4200 4700 4200
+Text Label 4750 4100 0    50   ~ 0
+USB_M
+Text Label 4750 4200 0    50   ~ 0
+USB_P
+Wire Wire Line
+	4700 4100 5100 4100
+Wire Wire Line
+	3700 3800 3550 3800
+Wire Wire Line
+	3550 3800 3550 3450
+Wire Wire Line
+	3550 3450 2850 3450
+Wire Wire Line
+	2850 3450 2850 3800
+Wire Wire Line
+	3700 3900 3450 3900
+Wire Wire Line
+	3450 3900 3450 3800
+Wire Wire Line
+	3450 3800 3350 3800
+Wire Wire Line
+	3700 3600 3650 3600
+Wire Wire Line
+	3650 3600 3650 3350
+Wire Wire Line
+	3650 3350 2750 3350
+Wire Wire Line
+	2750 3350 2750 3900
+Wire Wire Line
+	2750 3900 2850 3900
+$Comp
+L wheaton:FAB-USB-PCB J2
+U 1 1 61EC0501
+P 5450 4500
+F 0 "J2" H 5878 4446 50  0000 L CNN
+F 1 "FAB-USB-PCB" H 5878 4355 50  0000 L CNN
+F 2 "wheaton:FAB_USB-A-PCB" H 5500 4050 50  0001 C CNN
+F 3 "" H 5450 4500 50  0001 C CNN
+	1    5450 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 4450 5450 4450
+Wire Wire Line
+	5100 4550 5450 4550
+Wire Wire Line
+	5000 4650 5450 4650
+Wire Wire Line
+	5200 4750 5450 4750
+Text Label 3100 3450 0    50   ~ 0
+CLK
+Text Label 3100 3350 0    50   ~ 0
+*RST
+Text Label 3350 3800 0    50   ~ 0
+DIO
+$Comp
+L fab:R R3
+U 1 1 61EB4847
+P 5200 4250
+F 0 "R3" V 4993 4250 50  0000 C CNN
+F 1 "0K" V 5084 4250 50  0000 C CNN
+F 2 "fab:R_1206" V 5130 4250 50  0001 C CNN
+F 3 "~" H 5200 4250 50  0001 C CNN
+	1    5200 4250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3350 4600 4200 4600
+Wire Wire Line
+	3350 3900 3350 4600
+$Comp
+L fab:R R4
+U 1 1 61EBDED5
+P 4200 4750
+F 0 "R4" V 3993 4750 50  0000 C CNN
+F 1 "0K" V 4084 4750 50  0000 C CNN
+F 2 "fab:R_1206" V 4130 4750 50  0001 C CNN
+F 3 "~" H 4200 4750 50  0001 C CNN
+	1    4200 4750
+	-1   0    0    1   
+$EndComp
+Connection ~ 4200 4600
+$EndSCHEMATC
