@@ -1,3 +1,6 @@
 fp-info-cache
 SAMD-UPDI-breakaway-backups
 *-bak
+*.nc
+*.txt
+*SAMD*.svg
