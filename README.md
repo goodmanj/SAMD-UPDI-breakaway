@@ -1,5 +1,7 @@
 # SAMD-UPDI-breakaway
- A USB-to-UART-to-UPDI circuit board designed in KiCAD, based on Quentin Bolsee's [SAMD11C14 UART/UPDI programmer](https://fabacademy.org/2020/labs/ulb/students/quentin-bolsee/projects/samd11c_uart-updi/).  This version is designed so you can snap it in half to create a USB-to-UART adapter, and a UART-to-UPDI adapter, that can be used separately or joined together.
+ A USB-to-UART-to-UPDI circuit board designed in KiCAD, based on Quentin Bolsee's [SAMD11C14 UART/UPDI programmer](https://fabacademy.org/2020/labs/ulb/students/quentin-bolsee/projects/samd11c_uart-updi/).  This version is designed so you can snap it in half to create a USB-to-UART adapter, and a UART-to-UPDI adapter, that can be used separately or joined together.  If you don't plan to use the "breakaway" feature, you don't need to solder in the 6-pin headers, and you might want to delete the internal slot to make it stronger.
+ 
+ ![Hero shot of board](SAMD-UPDI-Breakaway-vsm.jpg)
 
  # Parts List
 * [MCP1700T-3302E/TT LDO Voltage Regulator 5v->3.3v](https://www.mouser.com/ProductDetail/579-MCP1700T3302E-TT)
