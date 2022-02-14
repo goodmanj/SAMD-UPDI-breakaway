@@ -1001,7 +1001,7 @@
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061e95181)
     (property "Reference" "J1" (id 0) (at 78.74 91.0082 0))
-    (property "Value" "JTAG" (id 1) (at 78.74 93.3196 0))
+    (property "Value" "SWD" (id 1) (at 78.74 93.3196 0))
     (property "Footprint" "fab:PinHeader_2x02_P2.54mm_Vertical_SMD" (id 2) (at 77.47 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -1328,7 +1328,7 @@
       (reference "C2") (unit 1) (value "1 uF") (footprint "fab:C_1206")
     )
     (path "/00000000-0000-0000-0000-000061e95181"
-      (reference "J1") (unit 1) (value "JTAG") (footprint "fab:PinHeader_2x02_P2.54mm_Vertical_SMD")
+      (reference "J1") (unit 1) (value "SWD") (footprint "fab:PinHeader_2x02_P2.54mm_Vertical_SMD")
     )
     (path "/00000000-0000-0000-0000-000061ec0501"
       (reference "J2") (unit 1) (value "FAB-USB-PCB") (footprint "wheaton:FAB_USB-A-PCB")
