@@ -17,3 +17,6 @@
 * [1206 SMD resistor 1.2k](https://www.mouser.com/ProductDetail/652-CR1206FX-1201ELF)
 * [1206 SMD zero-ohm SMD jumper](https://www.mouser.com/ProductDetail/652-CR1206-J-000ELF)
 * [1206 SMD 1uF ceramic capacitors](https://www.mouser.com/ProductDetail/187-CL31B105KAHNFNE) Qty: 2
+
+# Blinkenlights Version
+There is also a [version of this board with LED lights](Blinkenlights-version/) to indicate serial data activity.  You will need two additional 1206 1.2k resistors, and two 1206 1.2k LEDs.
