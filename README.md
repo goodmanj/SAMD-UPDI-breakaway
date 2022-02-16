@@ -1,6 +1,10 @@
 # SAMD-UPDI-breakaway
  A USB-to-UART-to-UPDI circuit board designed in KiCAD, based on Quentin Bolsee's [SAMD11C14 UART/UPDI programmer](https://fabacademy.org/2020/labs/ulb/students/quentin-bolsee/projects/samd11c_uart-updi/).  This version is designed so you can snap it in half to create a USB-to-UART adapter, and a UART-to-UPDI adapter, that can be used separately or joined together.  If you don't plan to use the "breakaway" feature, you don't need to solder in the 6-pin headers, and you might want to delete the internal slot to make it stronger.
  
+* [Detailed assembly instructions](https://docs.google.com/document/d/1IBKZu-5q0hexmYGWNFWA64giY4mmglZQRK6Q2b19Nos/)
+* [Quentin Bolsee's "SAMD11C_Serial" Arduino sketch](https://github.com/qbolsee/SAMD11C_serial): firmware for this board
+* [Fab SAM Core for Arduino](https://github.com/qbolsee/ArduinoCore-fab-sam): Arduino core needed for Quentin's sketch
+ 
  ![Hero shot of board](SAMD-UPDI-Breakaway-vsm.jpg)
 
  # Parts List
