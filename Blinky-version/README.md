@@ -1,8 +1,8 @@
-# Blinkenlights Version
+# Blinky Version
 This version of the USB-to-UART-to-UPDI board includes LEDs to indicate serial port activity.  The red LED will turn on when this board has power: it will flicker *off* when data is being sent.  The green LED will turn on when the board you're talking to has power; it will flicker *off* when data is received.
 
 
- ![Hero shot of board](blinkenlights-hero.jpg)
+ ![Hero shot of board](blinky-hero.jpg)
  ![Board Components](layout.png)
  # Parts List
 * [MCP1700T-3302E/TT LDO Voltage Regulator 5v->3.3v](https://www.mouser.com/ProductDetail/579-MCP1700T3302E-TT)
