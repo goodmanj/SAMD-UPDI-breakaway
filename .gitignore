@@ -5,3 +5,4 @@ SAMD-UPDI-breakaway-backups
 *.txt
 *SAMD*.svg
 *.zip
+*autosave*
